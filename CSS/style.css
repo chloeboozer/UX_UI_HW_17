@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo {
+    display:inline-block;
+    width: 30%;
+    color: #ffffff
+}
+nav {
+    background-color: #131313;
+    width: 98%;
+    padding: 1%;
+    align-items: right;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    width: 68%;
+    text-align: right;
+}
+.heroImg {
+    background-image: url(https://cdn.myportfolio.com/ead598b6-d39b-4e07-9506-e37a759ed3f4/b84e470a-26f4-46ba-a00b-5548d88de5a7_rw_1920.jpg?h=5d59b91db975d5ccf15ff3a3adc54648);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -60px;
+    height: 65vh;
+}
+.content {
+    display:block;
+    color: white;
+    width: 500px;
+    margin: 0 auto;
+    filter: drop-shadow(0px 5px 5px #131313);
+}
+.imageofme {
+    opacity: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+footer {
+    display:flex;
+    vertical-align: baseline;
+    background-color: #131313;
+}
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+} 
+nav ul {
+    vertical-align: top;
+}
+nav ul li {
+    text-align: center;
+    display: inline-block;
+    margin-right: 50px;
+}
+div button {
+    display:flex;
+    justify-content: center;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+div p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.work {
+    height: 600px;
+}
